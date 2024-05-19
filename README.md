@@ -34,16 +34,16 @@ docker run --name hyper-adminer -p 8080:8080 --network hyper-network -d adminer:
 docker container stop hyper-postgres
 docker container rm hyper-postgres
 
-# Stop and delete the hyper-adminer container
+**Stop and delete the hyper-adminer container**
 
 docker container stop hyper-adminer
 docker container rm hyper-adminer
 
-# Delete the hyper-network network
+**Delete the hyper-network network**
 
 docker network rm hyper-network
 
-# Delete the hyper-volume volume
+**Delete the hyper-volume volume**
 
 docker volume rm hyper-volume
 
